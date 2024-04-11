@@ -1,0 +1,79 @@
+:root {
+  --primary: #0d47a1;
+  --primary-dark: #002171;
+  --primary-light: #5472d3;
+  --primary-text: #ffffff;
+}
+
+html {
+  background-color: var(--primary);
+}
+
+h1 {
+  /* font-size: 24px; */
+  margin: 0;
+  background-color: var(--primary-dark);
+  color: var(--primary-text);
+  padding: 8px;
+}
+
+h2 {
+  font-size: 50px;
+  color: var(--primary-text);
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.player {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-text);
+  color: var(--primary-text);
+}
+
+.score {
+  padding: 5px;
+  font-size: medium;
+  font-weight: bold;
+  background-color: var(--primary-dark);
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color: var(--primary);
+}
+
+.round-btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  margin: 2px;
+  cursor: pointer;
+  background-color: var(--primary-dark);
+  color: var(--primary-text);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.round-btn:hover {
+  background-color: var(--primary-light);
+}
